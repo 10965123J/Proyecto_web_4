@@ -1,1 +1,14 @@
 
+.clr {
+  text-align: center;
+  color: #fcae4aff;
+  text-decoration: underline;
+  text-transform: uppercase
+ }
+ 
+ .lrt{
+  text-align:left;
+  color:#fcae4aff;
+  text-transform: uppercase
+  
+ }
