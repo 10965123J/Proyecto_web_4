@@ -1,1 +1,16 @@
+body{
 
+ background-color: #052644;
+ 
+}
+h1 {
+ color: #fcae4a;
+}
+td {
+color: #fcae4a;
+}
+.round3 {
+border: 2px white;
+border-radius: 12px;
+padding: 5px;
+}
