@@ -57,3 +57,26 @@ ul.nav-dec {
   .dropdown:hover .dropdown-content {
 	display: block;
   }
+
+  div.entrada {
+	  background-color: #252850;
+	  text-align: center;
+  }
+
+  h1.titulo1 {
+	  color:whitesmoke;
+  }
+
+  h3.subtitulo1 {
+	  color:whitesmoke;
+  }
+
+  a.estrenos{
+	  text-decoration: none;
+	  color:whitesmoke;
+  }
+
+  a.estrenos:hover{
+	text-decoration: underline;
+	color:whitesmoke;
+}
