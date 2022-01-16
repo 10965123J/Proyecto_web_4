@@ -61,6 +61,8 @@ ul.nav-dec {
   div.entrada {
 	  background-color: #252850;
 	  text-align: center;
+	  margin: 20px;
+	  height: 420px;
   }
 
   h1.titulo1 {
@@ -79,4 +81,27 @@ ul.nav-dec {
   a.estrenos:hover{
 	text-decoration: underline;
 	color:whitesmoke;
+}
+
+img.logo {
+	height: 57px;
+	width:360px;
+	padding: 0%;
+	margin-bottom: 0px;
+	margin-top: 5px;
+}
+
+img.estrenos {
+	height:250px;
+	width:250px;
+	padding:0px;
+	margin: 20px;
+	margin-top: 0px;
+}
+
+img.estrenos:hover {
+	border: 1px solid;
+	border-color: whitesmoke;
+	height:248px;
+	width:248px;
 }
