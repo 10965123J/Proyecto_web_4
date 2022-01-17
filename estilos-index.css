@@ -95,13 +95,14 @@ img.estrenos {
 	height:250px;
 	width:250px;
 	padding:0px;
-	margin: 20px;
+	margin: 40px;
 	margin-top: 0px;
 }
 
 img.estrenos:hover {
-	border: 1px solid;
+	/*border: 1px solid;
 	border-color: whitesmoke;
 	height:248px;
-	width:248px;
+	width:248px;*/
+	opacity:70%;
 }
