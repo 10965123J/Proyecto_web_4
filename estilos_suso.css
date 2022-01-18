@@ -14,3 +14,23 @@ border: 2px white;
 border-radius: 12px;
 padding: 5px;
 }
+.gal {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+.gal:hover {
+  border: 1px solid #777;
+}
+
+.gal img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
