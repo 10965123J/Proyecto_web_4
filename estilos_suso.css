@@ -3,6 +3,9 @@ body{
  background-color: #052644;
  
 }
+h2 {
+ color: #fcae4a;
+}
 h1 {
  color: #fcae4a;
 }
@@ -14,23 +17,23 @@ border: 2px white;
 border-radius: 12px;
 padding: 5px;
 }
-.gal {
+div.gal {
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
   width: 180px;
 }
 
-.gal:hover {
+div.gal:hover {
   border: 1px solid #777;
 }
 
-.gal img {
+div.gal img {
   width: 100%;
   height: auto;
 }
 
-.desc {
+div.desc {
   padding: 15px;
   text-align: center;
 }
