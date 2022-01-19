@@ -14,7 +14,7 @@ ul.nav-dec {
   }
   
   li {
-	float: left;
+	float: right;
   }
   
   li.nav-dec a, .dropbtn {
