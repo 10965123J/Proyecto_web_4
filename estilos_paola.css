@@ -3,6 +3,7 @@
   color: #FFFFFF;
   text-decoration: underline;
   text-transform: uppercase;
+  font-size:45px;
   
  }
  
@@ -81,5 +82,3 @@ ul.nav-dec {
   .dropdown:hover .dropdown-content {
 	display: block;
   }
-
-
