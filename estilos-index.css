@@ -1,5 +1,5 @@
 body{
-	background-color:#white;
+	background-color:#0d0b0c;
 }
 
 /* DROPDOWN-MENU */
@@ -14,12 +14,12 @@ ul.nav-dec {
   }
   
   li {
-	float: right;
+	float: left;
   }
   
   li.nav-dec a, .dropbtn {
 	display: inline-block;
-	color:#white;
+	color:white;
 	background-color:#0d0b0c;
 	text-align: center;
 	padding: 14px 16px;
@@ -27,7 +27,7 @@ ul.nav-dec {
   }
   
   li.nav-dec a:hover, .dropdown:hover .dropbtn {
-	background-color: #0d0b0c;
+	background-color: #3d3438;
 	text-decoration: underline;
   }
   
@@ -38,14 +38,15 @@ ul.nav-dec {
   .dropdown-content {
 	display: none;
 	position: absolute;
-	background-color:#white;
-	box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.329);
+	color:white;
+	background-color:#0d0b0c;
+	/*box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.329);*/
 	min-width: 160px;
 	z-index: 1;
   }
   
   .dropdown-content a {
-	color: #0d0b0c;
+	color:white;
 	padding: 12px 16px;
 	text-decoration: none;
 	display: block;
@@ -53,8 +54,8 @@ ul.nav-dec {
   }
   
   .dropdown-content a:hover {
-	  background-color: #0d0b0c;
-	  color:#white;
+	  background-color: #3d3438;
+	  color:white;
 	  text-decoration: underline;
 	}
   
@@ -69,22 +70,15 @@ ul.nav-dec {
 	  height: 420px;
   }
 
-  h1.titulo1 {
-	  color:#whitesmoke;
-  }
-
-  h3.subtitulo1 {
-	  color:#whitesmoke;
-  }
 
   a.estrenos{
 	  text-decoration: none;
-	  color:#whitesmoke;
+	  color:white;
   }
 
   a.estrenos:hover{
 	text-decoration: underline;
-	color:#whitesmoke;
+	color:white;
 }
 
 img.logo {
