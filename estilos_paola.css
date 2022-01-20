@@ -1,6 +1,6 @@
 .clr {
   text-align: center;
-  color: #C41A25;
+  color: #FFFFFF;
   text-decoration: underline;
   text-transform: uppercase;
   
@@ -8,12 +8,13 @@
  
  .lrt{
   text-align:left;
-  color:#C41A25;
+  color:#FFFFFF;
   
  }
  
  .tlt{text-align:justify;
-	 color:fcfafa
+     color:#FFFFFF;
+	 font-size:medium
 	 
  }
  
