@@ -1,1 +1,12 @@
-
+body {
+  background-color:black;
+  background-image: url("images/qt2.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin-right: 300px;
+  background-attachment: fixed;
+}
+h1 {
+  color: white;
+  margin-left: 20px;
+}
