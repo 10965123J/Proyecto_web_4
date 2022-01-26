@@ -1,4 +1,4 @@
-.clr {
+..clr {
   text-align: center;
   color: #FFFFFF;
   text-decoration: underline;
@@ -19,10 +19,6 @@
 	 
  }
  
-body{
-	background-color: #0d0b0c;
-}
-
 /* DROPDOWN-MENU */
 ul.nav-dec {
 	background: url("./images/logo.png") no-repeat left top;
@@ -31,7 +27,7 @@ ul.nav-dec {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #0d0b0c;        /*#252850*/
+	background-color:#0d0b0c;        /*#252850*/
   }
   
   li {
@@ -40,7 +36,7 @@ ul.nav-dec {
   
   li.nav-dec a, .dropbtn {
 	display: inline-block;
-	color: white;
+	color:white;
 	background-color:#0d0b0c;
 	text-align: center;
 	padding: 14px 16px;
@@ -48,7 +44,7 @@ ul.nav-dec {
   }
   
   li.nav-dec a:hover, .dropdown:hover .dropbtn {
-	background-color: #0d0b0c;
+	background-color: #3d3438;
 	text-decoration: underline;
   }
   
@@ -59,14 +55,15 @@ ul.nav-dec {
   .dropdown-content {
 	display: none;
 	position: absolute;
-	background-color:white;
-	box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.329);
+	color:white;
+	background-color:#0d0b0c;
+	/*box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.329);*/
 	min-width: 160px;
 	z-index: 1;
   }
   
   .dropdown-content a {
-	color: #0d0b0c;
+	color:white;
 	padding: 12px 16px;
 	text-decoration: none;
 	display: block;
@@ -74,11 +71,98 @@ ul.nav-dec {
   }
   
   .dropdown-content a:hover {
-	  background-color: #0d0b0c;
-	  color: white;
+	  background-color: #3d3438;
+	  color:white;
 	  text-decoration: underline;
 	}
   
   .dropdown:hover .dropdown-content {
 	display: block;
   }
+
+  div.entrada {
+	  background-color:#0d0b0c;
+	  text-align: center;
+	  margin-top: 50px;
+	  height: 840px;
+	  /*margin-bottom:300px;*/
+  }
+
+
+  a.estrenos{
+	  text-decoration: none;
+	  color:white;
+  }
+
+  a.estrenos:hover{
+	text-decoration: underline;
+	color:white;
+}
+
+img.logo {
+	height: 57px;
+	width:360px;
+	padding: 0%;
+	margin-bottom: 0px;
+	margin-top: 10px;
+}
+
+img.estrenos {
+	height:200px;
+	width:200px;
+	padding:25px;
+	margin: 40px;
+	margin-top: 0px;
+}
+
+img.estrenos:hover {
+	/*border: 1px solid;
+	border-color: whitesmoke;
+	height:248px;
+	width:248px;*/
+	opacity: 70%;
+}
+
+/*div.video{
+	color:black;
+	background-image: url("./images/fondo_cine2.jpg");
+	background-repeat:no-repeat;
+	background-position: center top;
+	height:500px;
+}*/
+
+h2{
+	text-align:center;
+}
+
+img.logo {
+  height: 57px;
+  width:360px;
+  padding: 0%;
+  margin-top: 10px;
+}
+
+div.content {
+    margin-top: 20px;
+	/*border:2px solid;
+	border-color:white;*/
+	margin-left:60px;
+	margin-right:60px;
+	margin-bottom:200px;
+	font-size:20px;
+    color: white;
+    background-color: #0d0b0c;
+}
+
+img.cabecera {
+    margin-top: 0px;
+	margin-bottom:50px;
+	width:900px;
+	height:272px;
+	border: 1px solid;
+	border-color:white;
+}
+
+div.img-cent{
+	text-align:center;
+}
