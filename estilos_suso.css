@@ -1,6 +1,6 @@
 body{
 
- background-color: #000000;
+ background-color: #0d0b0c;
  
 }
 /*MENU DROPDOWN*/
@@ -67,8 +67,7 @@ ul.nav-dec {
   div.entrada {
 	  background-color:#0d0b0c;
 	  text-align: center;
-	  margin-top: 0px;
-	  height: 420px;
+	  margin-top: 50px;
   }
 
 
@@ -91,11 +90,14 @@ img.logo {
 }
 
 img.estrenos {
-	height:250px;
-	width:250px;
-	padding:0px;
+	height:200px;
+	width:200px;
+	padding:25px;
 	margin: 40px;
 	margin-top: 0px;
+	margin-bottom: 0px;;
+	border: 1px solid;
+	border-color: white;
 }
 
 img.estrenos:hover {
@@ -105,6 +107,7 @@ img.estrenos:hover {
 	width:248px;*/
 	opacity: 70%;
 }
+
 h2 {
  color: #ffffff;
 }
