@@ -8,51 +8,57 @@
     <link rel="stylesheet" href="estilos-index.css">
   </head>
 
-  <body>
-	  <header>
-		<ul class="nav-dec">
+  <body background="images/fondo_lluvia.jpg">
+		<div class="fixed">
+			<ul class="nav-dec">
 
-			<li class="nav-dec"><a href="index.html">Inicio</a></li>
-		  
-			<li class="dropdown">
-			  <a href="javascript:void(0)" class="dropbtn">Géneros</a>
-				<div class="dropdown-content">	
-					<a href="accion.html">Acción</a>
-					<a href="comedia.html">Comedia</a>
-					<a href="ciencia-ficcion.html">Ciencia Ficción</a>
-				</div>
-			</li>	
-  
-			<li class="dropdown">
-			  <a href="javascript:void(0)" class="dropbtn">Directores</a>
-				<div class="dropdown-content">	
-				  <a href="steven_spielberg.html">Steven Spilberg</a>
-  
-				  <a href="quentin_tarantino.html">Quentin Tarantino</a>
-  
-				  <a href="martin_scorsese.html">Martin Scorsese</a>
-				</div>
-			</li>
-		</ul>
-	  </header>
+				<li class="nav-dec"><a href="index.html">Inicio</a></li>
+			  
+				<li class="dropdown">
+				  <a href="javascript:void(0)" class="dropbtn">Géneros</a>
+					<div class="dropdown-content">	
+						<a href="accion.html">Acción</a>
+						<a href="comedia.html">Comedia</a>
+						<a href="ciencia-ficcion.html">Ciencia Ficción</a>
+					</div>
+				</li>	
+	  
+				<li class="dropdown">
+				  <a href="javascript:void(0)" class="dropbtn">Directores</a>
+					<div class="dropdown-content">	
+					  <a href="steven_spielberg.html">Steven Spilberg</a>
+	  
+					  <a href="quentin_tarantino.html">Quentin Tarantino</a>
+	  
+					  <a href="martin_scorsese.html">Martin Scorsese</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+
+	
 	  
 	  	<div class="central">
-
 			<div class="img-cent">
 				<img class="logo" src="images/logo_cinemad.png">
 			</div>
 			
 			<div class="entrada">
-				<a href="proximos_estrenos.html"><img class="estrenos" src="images/the_batman3.png"></a>
-				<a href="proximos_estrenos.html"><img class="estrenos" src="images/uncharted.png"></a>
-				<a href="proximos_estrenos.html"><img class="estrenos" src="images/secretos_dumbledore2.png"></a>
-				<a href="proximos_estrenos.html"><img class="estrenos" src="images/dr_strange.png"></a>
-				<a href="proximos_estrenos.html"><img class="estrenos" src="images/wakanda.png"></a>
-				<a href="proximos_estrenos.html"><img class="estrenos" src="images/buzz_lightyear.png"></a>
-				<h2 class="subtitulo">Próximos estrenos</h2>
+				<a href="#batman"><img class="estrenos" src="images/the_batman3.png"></a>
+				<a href="#uncharted"><img class="estrenos" src="images/uncharted.png"></a>
+				<a href="#dumbledore"><img class="estrenos" src="images/secretos_dumbledore2.png"></a><br>
+				<a href="#strange"><img class="estrenos" src="images/dr_strange.png"></a>
+				<a href="#wakanda"><img class="estrenos" src="images/wakanda.png"></a>
+				<a href="#buzz"><img class="estrenos" src="images/buzz_lightyear.png"></a>
+				
+				<div class="subtitulo">
+					<h3 class="subtitulo">
+						<a href="#batman"><img src="images/flecha.png">Próximos estrenos<img src="images/flecha.png"></a>
+					</h3>
+				</div>
 			</div>
 		
-			<div class="content">
+			<div id="batman" class="content">
 				<div class="img-cent">
 					<img class="cabecera" src="images/cabecera_batman2.png">
 				</div>
@@ -66,9 +72,15 @@
 				El guión no convencía a nadie, ni siquiera al propio Affleck, que no acababa de verlo claro. El proyecto se fue 
 				retrasando y, poco a poco, Affleck se fue bajando del carro: primero de guionista, luego de director y, al final, 
 				de actor. El nuevo Bruce Wayne será Robert Pattinson (fichaje que tuvo muchas críticas).
+				<div class="img-cent">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/IqRRLA6pZvo" title="YouTube video 
+					player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+					picture-in-picture" allowfullscreen>
+					</iframe>
+				</div>
 			</div>
 		
-			<div class="content">
+			<div id="uncharted" class="content">
 				<div class="img-cent">
 					<img class="cabecera" src="images/uncharted3.png">
 				</div>
@@ -85,10 +97,16 @@
 				palomitera Made in Hollywood.
 				Uncharted llegará a los cines de España el 11 de febrero de 2022, y su estreno internacional será el 18 de febrero de 2022. Hay otros casos 
 				excepcionales, ya que en Holanda su estreno está previsto para el 10 de febrero de ese mismo año.
+				<div class="img-cent"> 
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/v6uwWIK3p4g" title="YouTube video 
+					player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+					picture-in-picture" allowfullscreen>
+					</iframe>
+				</div>
 			</div>
 			
 			
-			<div class="content">
+			<div id="dumbledore" class="content">
 				<div class="img-cent">
 					<img class="cabecera" src="images/cabecera_dumbledore.png">
 				</div>
@@ -105,10 +123,16 @@
 				palomitera Made in Hollywood.
 				Uncharted llegará a los cines de España el 11 de febrero de 2022, y su estreno internacional será el 18 de febrero de 2022. Hay otros casos 
 				excepcionales, ya que en Holanda su estreno está previsto para el 10 de febrero de ese mismo año.
+				<div class="img-cent">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/QfYgcLuxS5Y" title="YouTube video 
+					player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+					picture-in-picture" allowfullscreen>
+					</iframe>
+				</div>
 			</div>
 			
 
-			<div class="content">
+			<div id="strange" class="content">
 				<div class="img-cent">
 					<img class="cabecera" src="images/cabecera_strange.png">
 				</div class="img-cent">
@@ -127,10 +151,16 @@
 				Uncharted llegará a los cines de España el 11 de febrero de 2022, y su estreno internacional será el 18 de febrero de 2022. 
 				Hay otros casos excepcionales, ya que en Holanda su estreno está previsto para el 10 de febrero de ese mismo año.
 				
+				<div class="img-cent">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/t_khTGpoIQY" title="YouTube video 
+					player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+					picture-in-picture" allowfullscreen>
+					</iframe>
+				</div>
 			</div>
 			
 			
-			<div class="content">
+			<div id="wakanda" class="content">
 				<div class="img-cent">
 					<img class="cabecera" src="images/wakanda_cabecera.png">
 				</div class="img-cent">
@@ -149,11 +179,18 @@
 				Uncharted llegará a los cines de España el 11 de febrero de 2022, y su estreno internacional será el 18 de febrero de 2022. 
 				Hay otros casos excepcionales, ya que en Holanda su estreno está previsto para el 10 de febrero de ese mismo año.
 				
+				<div class="img-cent"> 
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/qZuQc-GvRlk" title="YouTube 
+					video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+					gyroscope; picture-in-picture" allowfullscreen>
+					</iframe>
+
+				</div>
 			</div>
 			
 			
 
-			<div class="content">
+			<div id="buzz" class="content">
 				<div class="img-cent">
 					<img class="cabecera" src="images/cabecera_buzz.png">
 				</div class="img-cent">
@@ -170,6 +207,13 @@
 				palomitera Made in Hollywood.
 				Uncharted llegará a los cines de España el 11 de febrero de 2022, y su estreno internacional será el 18 de febrero de 2022. 
 				Hay otros casos excepcionales, ya que en Holanda su estreno está previsto para el 10 de febrero de ese mismo año.
+			
+				<div class="img-cent"> 
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/kqBf2FJjE2I" title="YouTube 
+					video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+					gyroscope; picture-in-picture" allowfullscreen>
+					</iframe>
+				</div>
 			</div>
 
 	  	</div>
