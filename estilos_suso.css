@@ -64,50 +64,6 @@ ul.nav-dec {
 	display: block;
   }
 
-  div.entrada {
-	  background-color:#0d0b0c;
-	  text-align: center;
-	  margin-top: 50px;
-  }
-
-
-  a.estrenos{
-	  text-decoration: none;
-	  color:white;
-  }
-
-  a.estrenos:hover{
-	text-decoration: underline;
-	color:white;
-}
-
-img.logo {
-	height: 57px;
-	width:360px;
-	padding: 0%;
-	margin-bottom: 0px;
-	margin-top: 10px;
-}
-
-img.estrenos {
-	height:200px;
-	width:200px;
-	padding:25px;
-	margin: 40px;
-	margin-top: 0px;
-	margin-bottom: 0px;;
-	border: 1px solid;
-	border-color: white;
-}
-
-img.estrenos:hover {
-	/*border: 1px solid;
-	border-color: whitesmoke;
-	height:248px;
-	width:248px;*/
-	opacity: 70%;
-}
-
 h2 {
  color: #ffffff;
 }
