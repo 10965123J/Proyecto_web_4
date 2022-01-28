@@ -6,28 +6,33 @@
   font-size:45px;
   
  }
+
  
- .lrt{
-  text-align:left;
-  color:#FFFFFF;
-  
- }
- 
- .tlt{text-align:justify;
-     color:#FFFFFF;
-	 font-size:medium
-	 
- }
- 
+body{
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	font-family: 'Playfair Display';
+}
+
 /* DROPDOWN-MENU */
+div.fixed{
+	height: auto;
+	margin-bottom: auto;
+	margin-top: 0px;
+	width: 100%;
+	position: fixed;
+	background-color:#0d0b0c;
+	z-index:4;
+}
+
 ul.nav-dec {
 	background: url("./images/logo.png") no-repeat left top;
 	background-size: 45px;
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
+	margin:0px;
+	padding: 0px;
 	overflow: hidden;
-	background-color:#0d0b0c;        /*#252850*/
+	background-color:#0d0b0c;
   }
   
   li {
@@ -36,7 +41,7 @@ ul.nav-dec {
   
   li.nav-dec a, .dropbtn {
 	display: inline-block;
-	color:white;
+	color:aliceblue;
 	background-color:#0d0b0c;
 	text-align: center;
 	padding: 14px 16px;
@@ -55,7 +60,7 @@ ul.nav-dec {
   .dropdown-content {
 	display: none;
 	position: absolute;
-	color:white;
+	color:aliceblue;
 	background-color:#0d0b0c;
 	/*box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.329);*/
 	min-width: 160px;
@@ -63,7 +68,7 @@ ul.nav-dec {
   }
   
   .dropdown-content a {
-	color:white;
+	color:aliceblue;
 	padding: 12px 16px;
 	text-decoration: none;
 	display: block;
@@ -72,100 +77,13 @@ ul.nav-dec {
   
   .dropdown-content a:hover {
 	  background-color: #3d3438;
-	  color:white;
+	  color:aliceblue;
 	  text-decoration: underline;
 	}
   
   .dropdown:hover .dropdown-content {
 	display: block;
   }
-
-  div.entrada {
-	  background-color:#0d0b0c;
-	  text-align: center;
-	  margin-top: 50px;
-	  height: 840px;
-	  /*margin-bottom:300px;*/
-  }
-
-
-  a.estrenos{
-	  text-decoration: none;
-	  color:white;
-  }
-
-  a.estrenos:hover{
-	text-decoration: underline;
-	color:white;
-}
-
-img.logo {
-	height: 57px;
-	width:360px;
-	padding: 0%;
-	margin-bottom: 0px;
-	margin-top: 10px;
-}
-
-img.estrenos {
-	height:200px;
-	width:200px;
-	padding:25px;
-	margin: 40px;
-	margin-top: 0px;
-}
-
-img.estrenos:hover {
-	/*border: 1px solid;
-	border-color: whitesmoke;
-	height:248px;
-	width:248px;*/
-	opacity: 70%;
-}
-
-/*div.video{
-	color:black;
-	background-image: url("./images/fondo_cine2.jpg");
-	background-repeat:no-repeat;
-	background-position: center top;
-	height:500px;
-}*/
-
-h2{
-	text-align:center;
-}
-
-img.logo {
-  height: 57px;
-  width:360px;
-  padding: 0%;
-  margin-top: 10px;
-}
-
-div.content {
-    margin-top: 20px;
-	/*border:2px solid;
-	border-color:white;*/
-	margin-left:60px;
-	margin-right:60px;
-	margin-bottom:200px;
-	font-size:20px;
-    color: white;
-    background-color: #0d0b0c;
-}
-
-img.cabecera {
-    margin-top: 0px;
-	margin-bottom:50px;
-	width:900px;
-	height:272px;
-	border: 1px solid;
-	border-color:white;
-}
-
-div.img-cent{
-	text-align:center;
-}
 
 
 
