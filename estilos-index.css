@@ -11,7 +11,8 @@ div.fixed{
 	margin-top: 0px;
 	width: 100%;
 	position: fixed;
-	background-color: rgba(5.1, 4.3, 4.7, 1);;
+	background-color:#0d0b0c;
+	z-index:4;
 }
 
 ul.nav-dec {
