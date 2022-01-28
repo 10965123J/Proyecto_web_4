@@ -11,7 +11,7 @@ div.fixed{
 	margin-top: -10px;
 	width: 100%;
 	position: fixed;
-	background-color:#0d0b0c;
+	background-color: #0d0b0c;
 	z-index:4;
 }
 
@@ -136,7 +136,7 @@ div.content {
 }
 
 img.cabecera {
-    margin-top: 0px;
+    margin-top: 50px;
 	margin-bottom:50px;
 	width:900px;
 	height:272px;
@@ -152,12 +152,12 @@ div.central {
 	width: 90%;
 	margin-left:auto;
 	margin-right:auto;
-	background-color: rgba(5.1, 4.3, 4.7, 0.78);
+	background-color: rgba(5.1, 4.3, 4.7, 0.85);
 }
 
 div{
 	border: 1px solid;
-	border-color:rgba(5.1, 4.3, 4.7, 0;
+	border-color: rgba(5.1, 4.3, 4.7, 0);
 	/*border-color:aliceblue;*/
 }
 
