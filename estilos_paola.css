@@ -7,7 +7,12 @@
   
  }
 
- 
+ body{
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	font-family: 'Playfair Display';
+}
+
 /* DROPDOWN-MENU */
 div.fixed{
 	height: auto;
