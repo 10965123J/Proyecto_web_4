@@ -1,5 +1,4 @@
 body{
- font-size:22px;
  background-color: #0d0b0c;
  color: aliceblue;
 }
@@ -58,7 +57,6 @@ ul.nav-dec {
 	position: absolute;
 	color:aliceblue;
 	background-color:#0d0b0c;
-	/*box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.329);*/
 	min-width: 160px;
 	z-index: 1;
   }
@@ -82,6 +80,26 @@ ul.nav-dec {
   }
 /*acaba dropdown*/
 
+div.img-cent{
+	text-align:center;
+}
+
+img.logo {
+	height: 80px;
+	width:537px;
+	padding: 0%;
+	margin-top: 50px;
+	margin-bottom: 30px;
+  }
+
+  div.central {
+	width: 90%;
+	margin-left:auto;
+	margin-right:auto;
+	background-color: rgba(5.1, 4.3, 4.7, 0.85);
+	font-size: 22px;
+  }
+
 
 
  h3{
@@ -104,7 +122,7 @@ div.gal {
   margin: 5px;
   border: 1px solid;
   float:center;
-  width: 180px;
+  width: 200px;
 }
 
 div.gal:hover {
@@ -119,4 +137,8 @@ div.gal img {
 div.desc {
   padding: 15px;
   text-align: center;
+}
+
+table{
+	font-size: 18px;
 }
