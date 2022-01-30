@@ -9,7 +9,6 @@
  }
  
  body{
- font-size:22px;
  background-color: #0d0b0c;
  color: aliceblue;
 }
@@ -24,7 +23,7 @@ body{
 div.fixed{
 	height: auto;
 	margin-bottom: auto;
-	margin-top: 0px;
+	margin-top: -10px;
 	width: 100%;
 	position: fixed;
 	background-color:#0d0b0c;
@@ -32,7 +31,6 @@ div.fixed{
 }
 
 ul.nav-dec {
-	background: url("./images/logo.png") no-repeat left top;
 	background-size: 45px;
 	list-style-type: none;
 	margin:0px;
@@ -93,11 +91,30 @@ ul.nav-dec {
 
 /*acaba dropdown*/
 
+img.logo {
+	height: 80px;
+	width:537px;
+	padding: 0%;
+	margin-top: 50px;
+  }
+
+div.central {
+	width: 90%;
+	margin-left:auto;
+	margin-right:auto;
+	background-color: rgba(5.1, 4.3, 4.7, 0.85);
+}
+
+div.img-cent{
+	text-align:center;
+}
+
 div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
-  width: 180px;
+  width: 250px;
+  text-align: center;
 }
 
 div.gallery:hover {
@@ -105,11 +122,22 @@ div.gallery:hover {
 }
 
 div.gallery img {
-  width: 100%;
+  width: 90%;
   height: auto;
 }
 
 div.desc {
   padding: 15px;
   text-align: center;
+}
+
+table.tablas{
+	width:auto;
+	border: 1px solid;
+	font-size:22px;
+	border-color: white;
+}
+
+img{
+	margin:20px;
 }
