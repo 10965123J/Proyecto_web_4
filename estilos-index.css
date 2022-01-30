@@ -2,7 +2,7 @@ body{
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	font-family: 'Playfair Display';
-}
+} 
 
 /* DROPDOWN-MENU */
 div.fixed{
@@ -16,7 +16,6 @@ div.fixed{
 }
 
 ul.nav-dec {
-	background: url("./images/logo.png") no-repeat left top;
 	background-size: 45px;
 	list-style-type: none;
 	margin:0px;
@@ -76,7 +75,12 @@ ul.nav-dec {
   }
 /*acaba dropdown*/
 
-
+div.central {
+	width: 90%;
+	margin-left:auto;
+	margin-right:auto;
+	background-color: rgba(5.1, 4.3, 4.7, 0.85);
+}
 
 
   div.entrada {
@@ -130,9 +134,10 @@ div.content {
     margin-top: 20px;
 	margin-left:60px;
 	margin-right:60px;
-	margin-bottom:350px;
+	margin-bottom:250px;
 	font-size:22px;
     color: aliceblue;
+	border-top: 1px solid;
 }
 
 img.cabecera {
@@ -146,13 +151,6 @@ img.cabecera {
 
 div.img-cent{
 	text-align:center;
-}
-
-div.central {
-	width: 90%;
-	margin-left:auto;
-	margin-right:auto;
-	background-color: rgba(5.1, 4.3, 4.7, 0.85);
 }
 
 div{
