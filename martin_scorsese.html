@@ -1,115 +1,149 @@
-<!DOCTYPE html>
-<html lang="es">
-   <head>
-	<style>
-			@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@100&display=swap');
-		</style>
-	   
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CineMad</title>
-    <link rel="shortcut icon" type="image/x-" href="./images/logo_simple.png"/>
-    <link rel="stylesheet" href="estilos_suso.css">
-</head>
+body{
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: aliceblue;
+	font-family: 'Playfair Display', serif;
+}
+
+/* DROPDOWN-MENU */
+div.fixed{
+	height: auto;
+	margin-bottom: auto;
+	margin-top: -10px;
+	width: 100%;
+	position: fixed;
+	background-color: #0d0b0c;
+	z-index:4;
+}
+
+ul.nav-dec {
+	background: url("./images/logo.png") no-repeat left top;
+	background-size: 45px;
+	list-style-type: none;
+	margin:0px;
+	padding: 0px;
+	overflow: hidden;
+	background-color:#0d0b0c;
+  }
+  
+  li {
+	float: left;
+  }
+  
+  li.nav-dec a, .dropbtn {
+	display: inline-block;
+	color:aliceblue;
+	background-color:#0d0b0c;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+  li.nav-dec a:hover, .dropdown:hover .dropbtn {
+	background-color: #3d3438;
+	text-decoration: underline;
+  }
+  
+  li.dropdown {
+	display: inline-block;
+  }
+  
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	color:aliceblue;
+	background-color:#0d0b0c;
+	min-width: 160px;
+	z-index: 1;
+  }
+  
+  .dropdown-content a {
+	color:aliceblue;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+	  background-color: #3d3438;
+	  color:aliceblue;
+	  text-decoration: underline;
+	}
+  
+  .dropdown:hover .dropdown-content {
+	display: block;
+  }
+/*acaba dropdown*/
 
 
-  	<body background="images/fondo_lluvia.jpg">
-		<div class="fixed">
-			<ul class="nav-dec">
 
-				<li class="nav-dec"><a href="index.html">Inicio</a></li>
-			
-				<li class="dropdown">
-				<a href="javascript:void(0)" class="dropbtn">Géneros</a>
-					<div class="dropdown-content">	
-						<a href="accion.html">Acción</a>
-						<a href="comedia.html">Comedia</a>
-						<a href="ciencia-ficcion.html">Ciencia Ficción</a>
-					</div>
-				</li>	
-	
-				<li class="dropdown">
-				<a href="javascript:void(0)" class="dropbtn">Directores</a>
-					<div class="dropdown-content">	
-					<a href="steven_spielberg.html">Steven Spilberg</a>
-	
-					<a href="quentin_tarantino.html">Quentin Tarantino</a>
-	
-					<a href="martin_scorsese.html">Martin Scorsese</a>
-					</div>
-				</li>
-			</ul>
-		</div>
+div.img-cent{
+	text-align:center;
+}
+
+img.logo {
+	height: 80px;
+	width:537px;
+	padding: 0%;
+	margin-top: 50px;
+	margin-bottom: 30px;
+  }
+
+  div.central {
+	width: 90%;
+	margin-left:auto;
+	margin-right:auto;
+	background-color: rgba(5.1, 4.3, 4.7, 0.85);
+	font-size: 22px;
+  }
 
 
-	
-		<div class="central">
-			<div class="img-cent">
-				<img class="logo" src="images/logo_cinemad.png">
-			</div>
-			
-			<table border="0" align="center">
-				<tr>
-					<th colspan="4"><h1>Biografías</h1>
-				<tr>
-					<td><a target="_blank" href="images/scorsese.jpg">
-					<img class="round3"src="images/scorsese.jpg" width=275 height=425></a>
-					<td colspan="3"valign="middle"><a href="https://www.imdb.com/video/vi4072652569?playlistId=nm0000217">Martin Charles Scorsese</a> nació el 17 de noviembre de 1942 en Queens,
-					Nueva York, hijo de Catherine Scorsese (de soltera Cappa) y Charles Scorsese, 
-					ambos trabajaban en el distrito de la confección de Manhattan y cuyas familias procedían de Palermo, 
-					Sicilia. Se crió en el barrio de Little Italy, que más tarde sirvió de inspiración para varias de sus películas. 
-					Scorsese obtuvo un B.S. Licenciado en comunicaciones cinematográficas en 1964, 
-					seguido de una maestría en el mismo campo en 1966 en la Escuela de Cine de la Universidad de Nueva York. 
-					Durante este tiempo, ha realizado numerosos cortometrajes premiados, entre ellos The Big Shave (1967), 
-					y dirigido su primer largometraje, ¿Quién llama a mi puerta? (1967).
-				<tr>
-					<th colspan="4"><h1>Filmografía</h1>
-				<tr>
-					<th colspan="4" valign="middle"><h2>Principalmente es conocido por:</h2>
-				<tr>
-					<td align="center"><div class="gal">
-							<a target="_blank" href="images/taxi.jpg">
-								<img class="opaco" src="images/taxi.jpg"  width="600" height="400">
-							</a>
-								<div class="desc"><font face="helvetica,lucida sans"><u><h3>TAXI DRIVER</h3>
-								<br>
-								Un veterano con problemas de salud mental trabaja como taxista en Nueva York,
-								donde su percepción de la decadencia a su alrededor alimenta su deseo de violencia.
-								Aquí encontrarás un <a href="https://www.youtube.com/watch?v=FzNFDRgA0wk" target="_blank" >trailer </a>de la película</div>
-						</div>	
-					<td align="center"><div class="gal">
-							<a target="_blank" href="images/mean.jpg">
-								<img class="opaco" src="images/mean.jpg"  width="600" height="400">
-							</a>
-								<div class="desc"><font face="helvetica,lucida sans"><img src="images/mean_tit.jpg">
-															 
-								<br>
-								Un matón de poca monta aspira a subir de rango en la mafia local.
-								Aquí encontrarás un <a href="https://www.youtube.com/watch?v=rCwjzn0CncA" target="_blank" >trailer </a>de la película</div>
-						</div>	
-					<td align="center"><div class="gal">
-							<a target="_blank" href="images/uno_nuestrs.jpg">
-								<img class="opaco" src="images/uno_nuestrs.jpg"  width="600" height="400">
-							</a>
-								<div class="desc"><font face="helvetica,lucida sans"><u><h3>Uno de los Nuestros</u></h3>
-								<br>
-								La historia de Henry Hill y su vida en la mafia, abarcando su relación con su esposa Karen Hill y
-								sus socios mafiosos Jimmy Conway y Tommy DeVito en el sindicato del crimen italoamericano.
-								Aquí encontrarás un <a href="https://www.youtube.com/watch?v=p7DGH1lD95U" target="_blank" >trailer </a>de la película</div>
-						</div>	
-					<td align="center"><div class="gal">
-							<a target="_blank" href="images/edad.jpg">
-								<img class="opaco" src="images/edad.jpg"  width="600" height="400">
-							</a>
-								<div class="desc"><font face="helvetica,lucida sans"><u><h3>La Edad de la Inocencia</u></h3>
-								<br>
-								Una historia de la alta sociedad neoyorquina del siglo XIX, 
-								en la que un joven abogado se enamora de una mujer separada de su marido,
-								mientras él está comprometido con la prima de ella. Aquí encontrarás un <a href="https://youtu.be/bLZ34BycLCA" target="_blank">trailer </a>de la película</div>
-						</div>	
-			
-		
-						</div>
-						</table>		
-	</body>
-</html>
+
+ h3{
+ color: #ffffff;
+ }
+
+h2 {
+ color: #ffffff;
+}
+h1 {
+ color: #ffffff;
+}
+
+.round3 {
+border: 2px white;
+border-radius: 12px;
+padding: 5px;
+}
+div.gal {
+  margin: 5px;
+  border: 1px solid;
+  float:center;
+  width: 200px;
+  font-size:15px;
+}
+
+div.gal:hover {
+  border: 1px solid #777;
+}
+
+div.gal img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  font-size:18px;
+  padding:5px;
+  text-align: center;
+}
+
+table{
+	font-size:22px;
+	color:aliceblue;
+}
+
+a{
+	color:aliceblue;
+}
