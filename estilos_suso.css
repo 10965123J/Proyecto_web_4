@@ -3,6 +3,7 @@ body{
 	background-repeat: no-repeat;
 	color: aliceblue;
 	font-family: 'Playfair Display', serif;
+	font-size:22px;
 }
 
 /* DROPDOWN-MENU */
@@ -119,6 +120,7 @@ div.gal {
   border: 1px solid;
   float:center;
   width: 200px;
+	font-size:15px;
 }
 
 div.gal:hover {
@@ -136,5 +138,5 @@ div.desc {
 }
 
 table{
-	font-size: 18px;
+	font-size:22px;
 }
